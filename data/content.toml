@@ -31,32 +31,33 @@ lesson = 5
 
 [[classes]]
 title = "Profiling"
-leader = "Ted Bauer"
+leader = "Serena Zhang, Maggie Gao, Jacqueline Wen"
 readings = ["ball-larus"]
-
-[[classes]]
-lesson = 5
-
-
-# LLVM.
 
 [[classes]]
 lesson = 6
 
 [[classes]]
-title = "Automatic Verification"
-leader = "Goktug Saatcioglu & Samwise Parkinson"
-readings = ["alive"]
+lesson = 6
 
-# Fall break.
-# [[classes]]
-# lesson = 6
+[[classes]]
+title = "SSA"
+leader = "Nate Young, Amanda Wang, Jiale Lao, Ning Wang, Ziyang Chen"
+readings = ["ssa-construct"]
 
 
-# "Fancy" optimization.
+# LLVM.
 
 [[classes]]
 lesson = 7
+
+[[classes]]
+title = "Automatic Verification"
+leader = "Nikil Shyamsunder, Shihan Fang, Joseph Maheshe, Ruolin Ye, I-Ting Tsai"
+readings = ["alive"]
+
+
+# "Fancy" optimization.
 
 [[classes]]
 lesson = 8
@@ -65,80 +66,50 @@ lesson = 8
 lesson = 9
 
 [[classes]]
+lesson = 10
+
+[[classes]]
 title = "Alias-Based Optimization"
-leader = "Kenneth Li"
+leader = "Cynthia Shao, Jonathan Brown, Pedro Pontes García"
 readings = ["tbaa"]
 
 
 # Memory management.
 
 [[classes]]
-lesson = 10
+lesson = 11
 
 [[classes]]
 title = "GC & Reference Counting"
-leader = "Mark Moeller"
+leader = "Jeffrey Qian, Helen Ge"
 readings = ["ugc"]
-
-[[classes]]
-title = "Modern GC"
-leader = "Patrick LaFontaine"
-readings = ["consgc"]
 
 
 # Dynamic languages.
 
 [[classes]]
-lesson = 11
+lesson = 12
 
 [[classes]]
 title = "Dynamic Languages"
-leader = "Evan Adler"
+leader = "Jake Hyun, Tobi Weinberg and Adnan Armouti (Cornell Tech)"
 readings = ["self"]
 
-
-# Synthesis.
-
-# HACK: No in-person day because of semi-finals.
-# [[classes]]
-# lesson = 12
-
-[[classes]]
-title = "Superoptimization"
-leader = "Socrates Wong"
-readings = ["super"]
-
-[[classes]]
-title = "Synthesis-Aided Compilers"
-leader = "Jie Liu"
-readings = ["chlorophyll"]
-
-# HACK: out of order. Should be in JIT section.
 [[classes]]
 title = "Tracing"
-leader = "Will Smith"
+leader = "Jeremy Ku-Benjet, Ann Zhang, Sunwoo Kim"
 readings = ["tracemonkey"]
-
-
-# Parallelism.
-
-[[classes]]
-lesson = 13
-
-[[classes]]
-title = "Vectorization"
-leader = "Ankush Rayabhari"
-readings = ["slp"]
-
-[[classes]]
-title = "Safe Parallelism"
-leader = "Hanchen Jin, Xinwen Wang"
-readings = ["dpj"]
 
 
 # Potpourri.
 
 [[classes]]
-title = "Interactive Verification"
-leader = "Priya Srikumar"
-readings = ["compcert"]
+title = "Superoptimization"
+leader = "Thomas McFarland, Vesal Bakhtazad, Nipat Chenthanakij, Arisina Banerjee"
+readings = ["denali"]
+
+[[classes]]
+lesson = 13
+
+[[classes]]
+lesson = 14

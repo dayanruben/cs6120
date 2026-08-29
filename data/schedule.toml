@@ -1,45 +1,49 @@
 [[days]]
+date = "August 26"
+month = true
+
+[[days]]
+date = "August 28"
+canceled = true
+event = "[Upstate PL Seminar](https://www.cs.cornell.edu/upstate-pl/)"
+
+[[days]]
+month = true
 date = "September 2"
 
 [[days]]
-date = "September 7"
-mon = true
+date = "September 4"
 
 [[days]]
 date = "September 9"
-lesson_due = "1"
 
 [[days]]
-date = "September 14"
-mon = true
+date = "September 11"
 
 [[days]]
 date = "September 16"
 
 [[days]]
-date = "September 21"
-mon = true
+date = "September 18"
 
 [[days]]
 date = "September 23"
 
 [[days]]
-date = "September 28"
-mon = true
+date = "September 25"
 
 [[days]]
 date = "September 30"
 
 [[days]]
-date = "October 5"
-mon = true
+month = true
+date = "October 2"
 
 [[days]]
 date = "October 7"
 
 [[days]]
-date = "October 12"
-mon = true
+date = "October 9"
 
 [[days]]
 date = "October 14"
@@ -47,82 +51,59 @@ canceled = true
 event = "Fall break"
 
 [[days]]
-date = "October 19"
-mon = true
+date = "October 16"
 
 [[days]]
 date = "October 21"
 
 [[days]]
-date = "October 26"
-mon = true
+date = "October 23"
 
 [[days]]
 date = "October 28"
 
 [[days]]
-date = "November 2"
-mon = true
+date = "October 30"
 
 [[days]]
+month = true
 date = "November 4"
 notes = ["Due: [Project](../syllabus/#project) proposal."]
 
 [[days]]
-date = "November 9"
-mon = true
+date = "November 6"
 
 [[days]]
 date = "November 11"
-collapse = 2  # HACK
 
 [[days]]
-date = "November 16"
-mon = true
-canceled = true
-event = "Semi-Finals Study Period"
+date = "November 13"
 
 [[days]]
 date = "November 18"
-canceled = true
-event = "Semi-Finals"
 
 [[days]]
-date = "November 23"
-mon = true
-canceled = true
-event = "Semi-Finals"
+date = "November 20"
 
 [[days]]
 date = "November 25"
 canceled = true
+event = "Project work time"
+
+[[days]]
+date = "November 27"
+canceled = true
 event = "Thanksgiving break"
 
 [[days]]
-date = "November 30"
-mon = true
-notes = ["Classes go all-virtual"]
-
-[[days]]
 date = "December 2"
-collapse = 2  # HACK
 
 [[days]]
-date = "December 7"
-mon = true
-
-[[days]]
-date = "December 9"
-
-[[days]]
-date = "December 14"
-mon = true
+date = "December 4"
 
 [[days]]
 date = "December 16"
-
-[[days]]
-date = "December 18"
-event = "Final project due (no class)"
+event = "Final project [deadline](https://registrar.cornell.edu/exams/fall-final-exam-schedule), 4:30pm"
 canceled = true
-mon = true
+notes = ["Due: [Project](../syllabus/#project)."]
+month = true

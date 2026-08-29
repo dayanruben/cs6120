@@ -5,7 +5,7 @@ This is the [website][cs6120] for a new grad course at Cornell on compilers.
 It uses [Zola][].
 
 [zola]: https://www.getzola.org
-[cs6120]: https://www.cs.cornell.edu/courses/cs6120/2020fa/
+[cs6120]: https://www.cs.cornell.edu/courses/cs6120/2025fa/
 
 
 Adding Blog Posts
@@ -21,7 +21,7 @@ Include Zola-style "[TOML][] front matter" at the top, which looks like this:
     title = "Welcome to CS 6120!"
     [extra]
     bio = """
-      Grace Hopper made the first compiler. [Adrian Sampson](https://www.cs.cornell.edu/~asampson/) is an assistant professor of computer science, so that's pretty cool too I guess.
+      Grace Hopper made the first compiler. [Adrian Sampson](https://www.cs.cornell.edu/~asampson/) is an associate professor of computer science, so that's pretty cool too I guess.
     """
     [[extra.authors]]
     name = "Adrian Sampson"

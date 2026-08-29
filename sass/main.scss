@@ -1,7 +1,9 @@
 $main-color: rgb(179, 27, 27);
 $disabled-color: #666;
 $exception-color: #ccc;
+$warning-color: rgb(255, 142, 0);
 $max-width: 40rem;
+$max-width-wide: 60rem;
 
 
 // Layout.
@@ -28,7 +30,7 @@ main {
   padding-right: 1rem;
 }
 
-// On wide pages, do not constrain.
+// On wide pages, allow wider column.
 body.wide {
   display: flex;
   flex-direction: column;
@@ -36,7 +38,7 @@ body.wide {
   justify-content: center;
   main {
     margin: 1rem;
-    max-width: none;
+    max-width: $max-width-wide;
   }
 }
 
@@ -124,6 +126,9 @@ table {
 .schedule {
   .canceled {
     background: $exception-color;
+    .month {
+      color: inherit;
+    }
   }
   .event {
     font-weight: bold;
@@ -139,6 +144,15 @@ table {
   }
   .short {
     white-space: nowrap;
+  }
+  .num {
+    text-align: right;
+  }
+  .month {
+    color: $exception-color;
+    &.first {
+      color: inherit;
+    }
   }
 }
 
@@ -286,6 +300,11 @@ ul.inline {
   }
 }
 
+ul.simple {
+  list-style: none;
+  padding-left: 0;
+}
+
 // Funky responsive video embedding.
 .videos {
   .video {
@@ -318,5 +337,26 @@ ul.inline {
     font-size: 0.8em;
     &:before { content: '['; }
     &:after { content: ']'; }
+  }
+}
+
+// Warning blocks. Borrowed from mdBook's stylesheet.
+.warning {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-inline-start: 2px solid $warning-color;
+
+  &:before {
+    position: absolute;
+    width: 20px;
+    height: 28px;
+    margin-inline-start: -32px;
+
+    content: "ⓘ";
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    color: $warning-color;
+    background: white;
   }
 }

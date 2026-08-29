@@ -16,10 +16,17 @@
     {% for idx in range(end=count) %}
     {% set day = schedule.days[idx] %}
     <tr class="{% if day.canceled %}canceled{% endif %} {% if day.mon %}mon{% endif %}">
-      <th scope="row" class="short">{{ day.date }}</th>
+      <th scope="row" class="short num">
+        <span class="month {% if day.month %}first{% endif %}">
+          {{ day.date | split(pat=" ") | nth(n=0) }}
+        </span>
+        <span class="day">
+          {{ day.date | split(pat=" ") | nth(n=1) }}
+        </span>
+      </th>
       <td>
       {% if day.event %}
-      <strong>{{ day.event }}</strong>
+      <strong>{{ day.event | markdown(inline=true) | safe }}</strong>
       {% else %}
       {% if class_idx < class_count %}
       {% set collapse = day.collapse | default(value=1) %}
@@ -49,7 +56,9 @@
       {% endfor %}
       {% endif %}
       {% endif %}
-      <ul>
+      </td>
+      <td class="short">
+      <ul class="simple">
       {% for note in day.notes | default(value=[]) %}
         <li>{{ note | markdown(inline=true) | safe }}</li>
       {% endfor %}
